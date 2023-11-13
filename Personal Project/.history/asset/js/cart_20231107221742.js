@@ -1,0 +1,10 @@
+const handleRender = () => {
+   let 
+}
+
+let dataLocal = JSON.parse(localStorage.getItem('product'));
+if(dataLocal.length > 0) {
+    handleRender()
+}
+
+

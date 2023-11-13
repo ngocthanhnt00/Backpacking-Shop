@@ -1,0 +1,124 @@
+{
+    "list-Products": [
+        {
+            "id": 1,
+            "name": "Mặt bàn nhôm cho xe kéo TC02 Naturehike PNH22JU001",
+            "brand": "Naturalhike",
+            "img": "./img/MatBan.png",
+            "priceNew": "1,354,000",
+            "priceOld": null,
+            "star": 3,
+            "rateCount": 26,
+            "promo": {
+                "name": "tragop",
+                "value": "0"
+            },
+            "masp": "matban"
+        },
+        {
+            "id": 2,
+            "name": "Bếp gas cắm trại đa năng Naturehike CNH22CJ007",
+            "brand": "Maxfox",
+            "img": "./img/bep.png",
+            "priceNew": "1,692,000",
+            "priceOld": "2,350,000",
+            "star": 3,
+            "rateCount": 26,
+            "promo": {
+                "name": "tragop",
+                "value": "0"
+            },
+            "masp": "bepgas"
+        },
+        {
+            "id": 3,
+            "name": "BỘ KỀM-DỤNG CỤ ĐA NĂNG GERBER MULTI-PLIER 400 BLACK WITH SHEATH - 22-45509",
+            "brand": "Gerber gear",
+            "img": "./img/kiem.png",
+            "priceNew": "2,050,000",
+            "priceOld": null,
+            "star": 2,
+            "rateCount": 26,
+            "promo": {
+                "name": "tragop",
+                "value": "0"
+            },
+            "masp": "kemdanang"
+        },
+        {
+            "id": 4,
+            "name": "SUP BƠM HƠI AQUA MARINA HYPER, 11.6 FEET - BT-19HY01",
+            "brand": "Aqua maria",
+            "img": "./img/supblue.png",
+            "priceNew": "9,920,000",
+            "priceOld": null,
+            "star": 3,
+            "rateCount": 26,
+            "promo": {
+                "name": "tragop",
+                "value": "0"
+            },
+            "masp": "sup"
+        },
+        {
+            "id": 5,
+            "name": "CAMERA HÀNH TRÌNH THỂ THAO XIAOMI ACTION 4K",
+            "brand": "Xiaomi",
+            "img": "./img/gopro1.png",
+            "priceNew": "5,200,000",
+            "priceOld": "7,000,000",
+            "star": 5,
+            "rateCount": 26,
+            "promo": {
+                "name": "tragop",
+                "value": "0"
+            },
+            "masp": "xiaomi"
+        },
+        {
+            "id": 6,
+            "name": "Giày leo núi, Trekking (tổng hợp)",
+            "brand": "Fanfan",
+            "img": "./img/giayleonui.png",
+            "priceNew": "850,000",
+            "priceOld": null,
+            "star": 3,
+            "rateCount": 26,
+            "promo": {
+                "name": "tragop",
+                "value": "0"
+            },
+            "masp": "giayleonui"
+        },
+        {
+            "id": 7,
+            "name": "Balo leo núi cao cấp NatureHike 70L NH70B070-B",
+            "brand": "Naturalhike",
+            "img": "./img/scaleBaloLeonuii.webp",
+            "priceNew": "1,750,000",
+            "priceOld": "2,299,000",
+            "star": 3,
+            "rateCount": 26,
+            "promo": {
+                "name": "tragop",
+                "value": "0"
+            },
+            "masp": "balo"
+        },
+        {
+            "id": 8,
+            "name": "Mũ bảo hiểm 3/4 ANDES 382 NHÁM CHÍNH HÃNG",
+            "brand": "Andes helmet",
+            "img": "./img/mubaohiem.png",
+            "priceNew": "370,000",
+            "priceOld": "480,000",
+            "star": 3,
+            "rateCount": 26,
+            "promo": {
+                "name": "tragop",
+                "value": "0"
+            },
+            "masp": "mubaohiem"
+        }
+    ]
+}

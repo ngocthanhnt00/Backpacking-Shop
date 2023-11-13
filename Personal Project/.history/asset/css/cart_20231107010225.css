@@ -1,0 +1,117 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.item_remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.item-cart {
+    display: flex;
+    padding: 8px 12px 12px;
+    margin: 0 0 16px;
+    border-radius: 12px;
+    background: #fff;
+}
+.list-cart {
+    display: flex;
+    flex: 1;
+}
+
+.product_check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    text-align: center;
+}
+.product_image {
+    width: 120px;
+}
+.product_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.product_info {
+    position: relative;
+    padding-left: 16px;
+    display: flex;
+    flex: 0 0 calc(100% - 160px);
+    width: calc(100% - 110px);
+}
+.title-cart {
+    text-align: center;
+}
+
+.cart-formPage {
+    display: flex;
+}
+
+.product-relative {
+    flex: 0 0 calc(100% - 168px);
+    width: calc(100% - 168px);
+}
+.product-relative a{
+    color: #36393b;
+}
+
+.item_remove {
+    text-align: right;
+    font-size: 30px;
+}
+
+.price-prd span {
+    font-size: 16px;
+    color: rgb(81 184 71);
+}
+
+.select-quantity {
+    display: flex;
+    width: 128px;
+    margin: 0 24px 0 16px;
+}
+.select-quantity  .button-minus, .button-maxnus {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background: #fff;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    padding: 0;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.select-quantity input {
+    width: 64px;
+    height: 32px;
+    background: #f6f6f6;
+    font-weight: bold;
+    text-align: center;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 0;
+}
+
+
+.price-prd del {
+    font-size: 12.8px;
+    margin: 0 0 0 8px;
+    color: rgb(54, 57, 59);
+}
+.component-left {
+    display: flex;
+    align-items: center;
+}

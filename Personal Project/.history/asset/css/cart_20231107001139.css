@@ -1,0 +1,28 @@
+.product_image {
+    width: 120px;
+}
+.title-cart {
+    text-align: center;
+}
+
+.cart-formPage {
+    display: flex;
+}
+.product_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.list-cart {
+    display: flex;
+    flex: 1;
+}
+.product-relative a{
+    color: #36393b;
+}
+.component-left {
+    display: flex;
+    align-items: center;
+}

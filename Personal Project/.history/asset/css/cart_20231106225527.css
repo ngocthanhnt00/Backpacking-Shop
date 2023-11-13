@@ -1,0 +1,9 @@
+.cart-pd {
+    width: 120px;
+}
+
+.cart-pd img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

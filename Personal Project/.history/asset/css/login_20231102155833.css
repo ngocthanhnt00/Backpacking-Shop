@@ -1,0 +1,1035 @@
+* {
+    font-family: 'poppins', sans-serif;
+
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url(../img/loginbackground.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    position: relative;
+}
+
+.container h3 {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: #fff;
+    top: 0;
+    z-index: 10;
+    display: block;
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.top {
+    color: #fff;
+}
+
+.top>span {
+    font-size: small;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.top>h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0 0;
+    padding: 10px 0;
+}
+
+
+.form-list .input {
+    width: calc(100% - 45px);
+    height: 45px;
+    outline: none;
+    border: none;
+    padding: 0 0 0 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+}
+
+.form-list {
+    position: relative;
+}
+
+.error-User {
+    position: absolute;
+}
+
+.error-User li {
+    list-style: none;
+    color: red;
+    font-size: 10px;
+
+}
+
+.error-password {
+    position: absolute;
+    top: 414px;
+    color: red;
+    font-size: 10px;
+    /* top: 10px */
+}
+
+.error-password li {
+    list-style: none;
+    color: red;
+    font-size: 10px;
+
+}
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.form-list ion-icon {
+    position: relative;
+    top: -33px;
+    left: 14px;
+    color: #fff;
+    --ionicon-stroke-width: 50px;
+}
+
+
+
+
+::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 10px;
+}
+
+.form-list .input:not(:placeholder-shown) {
+    color: #fff;
+}
+
+
+.notes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: small;
+    color: #fff;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.checked {
+    color: #fff;
+}
+
+.forgot-pass label a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Iphone 5s max-width: 374px */
+@media only screen and (max-width: 23.375em) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        background: url(./img/loginbackground.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        box-sizing: border-box;
+    }
+
+    .form-list .input {
+        width: calc(100% - 75px);
+        height: 38px;
+        outline: none;
+        border: none;
+        padding: 0 0 0 45px;
+        border-radius: 30px;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 5px 0;
+    }
+
+    .top>h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0 0;
+        padding: 10px 0;
+    }
+
+    .container h3 {
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        font-size: 30px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: rgb(255, 255, 255);
+        top: 0px;
+        z-index: 10;
+        display: block;
+    }
+
+    .form-list ion-icon {
+        position: relative;
+        top: 2px;
+        left: -234px;
+        color: #fff;
+        --ionicon-stroke-width: 38px;
+        font-size: 14px;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .form-list .input:not(:placeholder-shown) {
+        color: #fff;
+        font-size: 10px;
+    }
+
+
+    .form-list {
+        text-align: center;
+        transform: translate(10px, 10px);
+    }
+
+
+    .submit {
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        height: 38px;
+        outline: none;
+        width: 90%;
+        color: black;
+        background: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 15px 0;
+    }
+
+    .submit:hover {
+        box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 255, 255, 0.711);
+    }
+
+    #submit {
+        transform: translate(0, 0);
+    }
+
+    .notes {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 10px;
+        color: #fff;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+}
+
+/* Mobile (Iphone 6-7-8, X) */
+@media only screen and (min-width: 23.4375em) and (max-width: 25.8125em) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        background: url(./img/loginbackground.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        box-sizing: border-box;
+    }
+
+    .form-list .input {
+        width: calc(100% - 75px);
+        height: 38px;
+        outline: none;
+        border: none;
+        padding: 0 0 0 45px;
+        border-radius: 30px;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 5px 0;
+    }
+
+    .top>h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0 0;
+        padding: 10px 0;
+    }
+
+    .container h3 {
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        font-size: 27px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: rgb(255, 255, 255);
+        top: 0px;
+        z-index: 10;
+        display: block;
+    }
+
+    .form-list ion-icon {
+        position: relative;
+        top: 2px;
+        left: -287px;
+        color: #fff;
+        --ionicon-stroke-width: 38px;
+        font-size: 14px;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .form-list .input:not(:placeholder-shown) {
+        color: #fff;
+        font-size: 10px;
+    }
+
+
+    .form-list {
+        text-align: center;
+        transform: translate(10px, 10px);
+    }
+
+
+    .submit {
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        height: 38px;
+        outline: none;
+        width: 90%;
+        color: black;
+        background: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 15px 0;
+    }
+
+    .submit:hover {
+        box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 255, 255, 0.711);
+    }
+
+    #submit {
+        transform: translate(0, 0);
+    }
+
+    .notes {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 10px;
+        color: #fff;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+
+/* Iphone 8 Plus */
+@media only screen and (min-width: 25.84375em) and (max-width: 37.4375em) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        background: url(./img/loginbackground.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        box-sizing: border-box;
+    }
+
+    .form-list .input {
+        width: calc(100% - 75px);
+        height: 42px;
+        outline: none;
+        border: none;
+        padding: 0 0 0 45px;
+        border-radius: 30px;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 5px 0;
+    }
+
+    .top>h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0 0;
+        padding: 10px 0;
+    }
+
+    .container h3 {
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        font-size: 30px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: rgb(255, 255, 255);
+        top: 0px;
+        z-index: 10;
+        display: block;
+    }
+
+    .form-list ion-icon {
+        position: relative;
+        top: 2px;
+        left: -304px;
+        color: #fff;
+        --ionicon-stroke-width: 38px;
+        font-size: 15px;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .form-list .input:not(:placeholder-shown) {
+        color: #fff;
+        font-size: 12px;
+    }
+
+
+    .form-list {
+        text-align: center;
+        transform: translate(10px, 10px);
+    }
+
+
+    .submit {
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        height: 42px;
+        outline: none;
+        width: 90%;
+        color: black;
+        background: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 15px 0;
+    }
+
+    .submit:hover {
+        box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 255, 255, 0.711);
+    }
+
+    #submit {
+        transform: translate(0, 0);
+    }
+
+    .notes {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 10px;
+        color: #fff;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+}
+
+/* Mobile (Iphone 6-7-8) */
+@media only screen and (min-width: 23.4375em) and (max-width: 25.8125em) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        background: url(./img/loginbackground.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        box-sizing: border-box;
+    }
+
+    .form-list .input {
+        width: calc(100% - 75px);
+        height: 38px;
+        outline: none;
+        border: none;
+        padding: 0 0 0 45px;
+        border-radius: 30px;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 5px 0;
+    }
+
+    .top>h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0 0;
+        padding: 10px 0;
+    }
+
+    .container h3 {
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        font-size: 27px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: rgb(255, 255, 255);
+        top: 0px;
+        z-index: 10;
+        display: block;
+    }
+
+    .form-list ion-icon {
+        position: relative;
+        top: 2px;
+        left: -287px;
+        color: #fff;
+        --ionicon-stroke-width: 38px;
+        font-size: 14px;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .form-list .input:not(:placeholder-shown) {
+        color: #fff;
+        font-size: 10px;
+    }
+
+
+    .form-list {
+        text-align: center;
+        transform: translate(10px, 10px);
+    }
+
+
+    .submit {
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        height: 38px;
+        outline: none;
+        width: 90%;
+        color: black;
+        background: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 15px 0;
+    }
+
+    .submit:hover {
+        box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 255, 255, 0.711);
+    }
+
+    #submit {
+        transform: translate(0, 0);
+    }
+
+    .notes {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 10px;
+        color: #fff;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+
+/* Iphone X */
+
+@media only screen and (min-width: 23.4375em) and (max-width: 25.8125em) and (min-height: 50em) {
+    body {
+        padding: 0;
+        margin: 0;
+        background: url(./img/loginbackground.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        box-sizing: border-box;
+    }
+
+    .form-list .input {
+        width: calc(100% - 75px);
+        height: 38px;
+        outline: none;
+        border: none;
+        padding: 0 0 0 45px;
+        border-radius: 30px;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 5px 0;
+    }
+
+    .top>h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0 0;
+        padding: 10px 0;
+    }
+
+    .container h3 {
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        font-size: 27px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: rgb(255, 255, 255);
+        top: 0px;
+        z-index: 10;
+        display: block;
+    }
+
+    .form-list ion-icon {
+        position: relative;
+        top: 2px;
+        left: -301px;
+        color: #fff;
+        --ionicon-stroke-width: 38px;
+        font-size: 15px;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .form-list .input:not(:placeholder-shown) {
+        color: #fff;
+        font-size: 10px;
+    }
+
+
+    .form-list {
+        text-align: center;
+        transform: translate(10px, 10px);
+    }
+
+
+    .submit {
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        height: 38px;
+        outline: none;
+        width: 90%;
+        color: black;
+        background: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 15px 0;
+    }
+
+    .submit:hover {
+        box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 255, 255, 0.711);
+    }
+
+    #submit {
+        transform: translate(0, 0);
+    }
+
+    .notes {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 10px;
+        color: #fff;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+
+
+
+/* Small Tablet */
+@media only screen and (min-width: 37.5em) and (max-width: 46.1875em) {
+    body {
+        padding: 0;
+        margin: 0;
+        background: url(./img/loginbackground.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        box-sizing: border-box;
+    }
+
+    .form-list .input {
+        width: calc(100% - 75px);
+        height: 44px;
+        outline: none;
+        border: none;
+        padding: 0 0 0 45px;
+        border-radius: 30px;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 5px 0;
+    }
+
+    .top>h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0 0;
+        padding: 10px 0;
+    }
+
+    .container h3 {
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        font-size: 32px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: rgb(255, 255, 255);
+        top: 0px;
+        z-index: 10;
+        display: block;
+    }
+
+    .form-list ion-icon {
+        position: relative;
+        top: 2px;
+        left: -306px;
+        color: #fff;
+        --ionicon-stroke-width: 38px;
+        font-size: 16px;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .form-list .input:not(:placeholder-shown) {
+        color: #fff;
+        font-size: 13px;
+    }
+
+
+    .form-list {
+        text-align: center;
+        transform: translate(10px, 10px);
+    }
+
+
+    .submit {
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        height: 44px;
+        outline: none;
+        width: 90%;
+        color: black;
+        background: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 15px 0;
+    }
+
+    .submit:hover {
+        box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 255, 255, 0.711);
+    }
+
+    #submit {
+        transform: translate(0, 0);
+    }
+
+    .notes {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 10px;
+        color: #fff;
+        align-items: center;
+        margin-top: 12px;
+    }
+}
+
+/* Ipad */
+
+@media only screen and (min-width: 46.25em) and (max-width: 48em) {
+    body {
+        padding: 0;
+        margin: 0;
+        background: url(./img/loginbackground.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        box-sizing: border-box;
+    }
+
+    .form-list .input {
+        width: calc(100% - 75px);
+        height: 44px;
+        outline: none;
+        border: none;
+        padding: 0 0 0 45px;
+        border-radius: 30px;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 5px 0;
+    }
+
+    .top>h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0 0;
+        padding: 10px 0;
+    }
+
+    .container h3 {
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        font-size: 32px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: rgb(255, 255, 255);
+        top: 0px;
+        z-index: 10;
+        display: block;
+    }
+
+    .form-list ion-icon {
+        position: relative;
+        top: 2px;
+        left: -306px;
+        color: #fff;
+        --ionicon-stroke-width: 38px;
+        font-size: 16px;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .form-list .input:not(:placeholder-shown) {
+        color: #fff;
+        font-size: 13px;
+    }
+
+
+    .form-list {
+        text-align: center;
+        transform: translate(10px, 10px);
+    }
+
+
+    .submit {
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        height: 44px;
+        outline: none;
+        width: 90%;
+        color: black;
+        background: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 15px 0;
+    }
+
+    .submit:hover {
+        box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 255, 255, 0.711);
+    }
+
+    #submit {
+        transform: translate(0, 0);
+    }
+
+    .notes {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 10px;
+        color: #fff;
+        align-items: center;
+        margin-top: 12px;
+    }
+}
+
+/* Ipad Pro */
+
+@media only screen and (min-width: 48em) and (max-width: 64em) {
+    body {
+        padding: 0;
+        margin: 0;
+        background: url(./img/loginbackground.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
+
+    .form-list .input {
+        width: calc(100% - 58px);
+        height: 52px;
+        outline: none;
+        border: none;
+        padding: 0 0 0 45px;
+        border-radius: 30px;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 5px 0;
+    }
+
+    .top>h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0 0;
+        padding: 10px 0;
+    }
+
+    .container h3 {
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        font-size: 32px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: rgb(255, 255, 255);
+        top: 0px;
+        z-index: 10;
+        display: block;
+    }
+
+    .form-list ion-icon {
+        position: relative;
+        top: -41px;
+        left: -143px;
+        color: #fff;
+        --ionicon-stroke-width: 38px;
+        font-size: 18px;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .form-list .input:not(:placeholder-shown) {
+        color: #fff;
+        font-size: 15px;
+    }
+
+
+    .form-list {
+        text-align: center;
+        transform: translate(10px, 10px);
+    }
+
+
+    .submit {
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        height: 52px;
+        outline: none;
+        width: 90%;
+        color: black;
+        background: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 15px 0;
+    }
+
+    .submit:hover {
+        box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 255, 255, 0.711);
+    }
+
+    #submit {
+        transform: translate(0, 0);
+    }
+
+    .notes {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 10px;
+        color: #fff;
+        align-items: center;
+        margin-top: 12px;
+    }
+}
