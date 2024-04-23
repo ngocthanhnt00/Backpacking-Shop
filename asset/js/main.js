@@ -1,7 +1,10 @@
 
 // Call API 
 
-
+const express = require('express');
+const cors = require('cors');
+const app = express();
+app.use(cors);
 let data;
 fetch('https://ngocthanhnt04.id.vn/database.json')
     .then((res) => res.json())
