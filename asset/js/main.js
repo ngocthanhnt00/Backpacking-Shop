@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors);
 let data;
-fetch('https://ngocthanhnt04.id.vn/database.json')
+fetch('https://backpacking-shop.vercel.app/src/database.json')
     .then((res) => res.json())
     .then((res) => {
         data = res
