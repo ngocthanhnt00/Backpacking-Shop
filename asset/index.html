@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+
+    <title>Project1</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="top">
+                <ul class="requiment wide">
+                    <li><a href="" title="Tuyển dụng">Tuyển dụng</a></li>
+                    <li><a href="" title="Liên hệ">Liên hệ</a></li>
+                    <li>
+                        <div class="language">
+                            <select name="" id="options">
+                                <option selected value="">Chọn ngôn ngữ</option>
+                                <option value="">Việt Nam</option>
+                                <option value="">English</option>
+                                <option value="">Tiếng Trung</option>
+                                
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="bottom-list">
+                <div class="bottom wide">
+                    <div class="logo">
+                        <a href="./index.html" title="FanFan" id="logoImage">
+                            <img src="./img/logo.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="item-header">
+                        <div class="search-input">
+                            <input autocomplete="off" type="te-searchxt" name="" id="search-products"
+                                placeholder="Tìm kiếm"><i class="fa-solid fa-magnifying-glass"
+                                style="color: #000000ce;"></i>
+                            <!-- * Search Products -->
+                            <div class="search-input-product wide">
+                                <div class="smart-wrapper-search">
+                                    <div class="search-left">
+
+
+
+
+
+                                    </div>
+
+                                    <!-- <div class="search-right">
+                        <h2>Sản phẩm bạn tìm hiện không tìm thấy</h2>
+                                     </div> -->
+                                </div>
+                            </div>
+                            <!-- * End  Search Products -->
+                        </div>
+
+                        <div class="right-header">
+                            <a href="#" class="blog" title="Blog">
+                                <img src="./img/iconBlog.webp" alt="">
+                                <span>Blog</span>
+                            </a>
+                            <a href="./src/sale.html" class="blog" title="Khuyến mãi">
+                                <img src="./img/give.webp" alt="">
+                                <span>Khuyến mãi</span>
+                            </a>
+                            <a data-cart-counter="0" href="./src/cart.html" class="blog" title="Giỏ hàng">
+                                <img src="https://theme.hstatic.net/200000467803/1000988268/14/icon-cart.svg?v=435"
+                                    alt="">
+                                <span>Giỏ hàng</span>
+                            </a>
+                            <a href="./src/login.html" class="blog" title="Đăng nhập">
+                                <img src="https://theme.hstatic.net/200000467803/1000988268/14/icon-user.svg?v=435"
+                                    alt="">
+                                <span style="color: #51b848;">Đăng nhập</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </header>
+        <section>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="./img/bannerheading.webp" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/bannerheading1.webp" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/bannerheading3.webp" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/bannerheading4.webp" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/bannerheading5.webp" alt="">
+                    </div>
+                </div>
+                <!-- buttons next and prev -->
+                <div class="buttons">
+                    <button id="prev">
+                        < </button>
+                            <button id="next">></button>
+                </div>
+                <!-- dots if(n item => n dots)  -->
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="menu-main wide">
+                <ul class="name-product">
+                    <li class="has-child">
+                        <a href="" title="Cắm trại - Leo núi">
+                            <img src="./img/iconleu.webp" alt="">
+                            <span>Cắm trại - Leo núi</span>
+                        </a>
+                    </li>
+                    <li class="has-child">
+                        <a href="" title="Đồ phượt xe máy xe đạp">
+                            <img src="./img/iconbike.webp" alt="">
+                            <span>Đồ phượt xe máy xe đạp</span>
+                        </a>
+                    </li>
+                    <li class="has-child">
+                        <a href="" title="Trang phục dã ngoại">
+                            <img src="./img/iconAoKhoac.webp" alt="">
+                            <span>Trang phục dã ngoại</span>
+                        </a>
+                    </li>
+                    <li class="has-child">
+                        <a href="" title="Giày dép">
+                            <img src="./img/icongiay.webp" alt="">
+                            <span>Giày dép</span>
+                        </a>
+                    </li>
+                    <li class="has-child">
+                        <a href="" title="Ba lô & Túi du lịch">
+                            <img src="./img/iconbalo.webp" alt="">
+                            <span>Ba lô & Túi du lịch</span>
+                        </a>
+                    </li>
+                    <li class="has-child">
+                        <a href="" title="Điện tử - Công nghệ">
+                            <img src="./img/icondenpin.webp" alt="">
+                            <span>Điện tử - Công nghệ</span>
+                        </a>
+                    </li>
+                    <li class="has-child">
+                        <a href="" title="Dao và công cụ">
+                            <img src="./img/icondao.webp" alt="">
+                            <span>Dao và công cụ</span>
+                        </a>
+                    </li>
+                    <li class="has-child">
+                        <a href="./SliderDInhCao/Slider/index.html" title="Thể thao dưới nước">
+                            <img src="./img/iconthethaonuoc.webp" alt="">
+                            <span>Thể thao dưới nước</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <main>
+            <div class="main-content" name="one">
+                <div class="product-super-list wide">
+                    <div class="view-heading-recently wide">Sản phẩm bán chạy nhất</div>
+                    <div class="cart2">
+                        <div class="list-products2">
+                            <!-- <img src="./img/scaleBaloLeonuii.webp" alt=""> -->
+
+
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="button-prod">
+                        <button
+                            style="padding: 20px; display: flex; justify-content: center; align-items: center; border-radius: 50%; width: 10px; height: 10px;"
+                            class="next">
+                            >
+                        </button>
+                        <button
+                            style="padding: 20px; display: flex; justify-content: center; align-items: center; border-radius: 50%; width: 10px; height: 10px;"
+                            class="prev">
+                            < </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main-content" name="two">
+                <div class="product-super-list wide">
+                    <div class="view-heading-recently">Sản phẩm xem gần đây</div>
+                    <div class="cart">
+                        <div class="list-products">
+                            <div class="product">
+                                <div class="image-product">
+                                    <img src="./img/thungnew.png" alt="">
+                                </div>
+                                <div class="product-info" name="9">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">NaturalHike</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Túi đựng đồ camping cắm trại xếp gọn Naturehike</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">7900,000đ</div>
+                                        <div class="price-old">9700,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product">
+                                <div class="image-product">
+                                    <img src="./img/leublackdog.webp" alt="">
+                                </div>
+                                <div class="product-info" name="10">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">BlackDog</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Lều glamping 3-4 người lục giác kim tự tháp BlackDog
+                                                BD-ZP003</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">3,100,000đ</div>
+                                        <div class="price-old">4,760,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="image-product">
+                                    <img src="./img/leucamtrai.webp" alt="">
+                                </div>
+                                <div class="product-info" name="100">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">MADFOX</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">LỀU 4 NGƯỜI MADFOX SIÊU KHÁNG NƯỚC TREKKER 4 2022</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-solid fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-solid fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-solid fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-solid fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-solid fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">2,490,000đ</div>
+                                        <div class="price-old none">2,154,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="image-product">
+                                    <img src="./img/bepga.webp" alt="">
+                                </div>
+                                <div class="product-info" name="12">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">MAXSUN</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Bếp gas cắm trại xếp gọn MS-200DF</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">1,266,500đ</div>
+                                        <div class="price-old">1,490,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="image-product">
+                                    <img src="./img/denpincamtrai.webp" alt="">
+                                </div>
+                                <div class="product-info" name="13">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">PRINCETON TEC</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Đèn Đuốc Cắm Trại Princeton Tec HELIX BASECAMP Led Lantern
+                                                HX2-BK</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-solid fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-solid fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-solid fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-solid fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">1,771,000đ</div>
+                                        <div class="price-old">2,154,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="image-product">
+                                    <img src="./img/gopro.webp" alt="">
+                                </div>
+                                <div class="product-info" name="14">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">GOPRO</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Mount gắn Camera lên chân máy - Tripod Mount
+                                                HX2-BK</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">200,000đ</div>
+                                        <div class="price-old none">200,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="image-product">
+                                    <img src="./img/scaleBaloLeonuii.webp" alt="">
+                                </div>
+                                <div class="product-info" name="15">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">VULTURA</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Ba lô leo núi Vultura Moab Jam 34 New</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">590,000đ</div>
+                                        <div class="price-old">699,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="image-product">
+                                    <img src="./img/giayleonui.webp" alt="">
+                                </div>
+                                <div class="product-info" name="16">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">HANAGAL</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Giày leo núi cổ thấp chống thấm Hanagal Herba 13923</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">1,015,000đ</div>
+                                        <div class="price-old">1,450,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main-content" name="three">
+                <div class="product-super-list wide">
+                    <div class="row-heading">
+                        <div class="view-heading-recently wide">Sản Phẩm Khuyến Mãi</div>
+                        <div class="view-all">Xem tất cả ></div>
+                    </div>
+                    <div class="cart3">
+                        <div class="list-products3">
+                            <div class="product3">
+                                <div class="image-product">
+                                    <img src="./img/thungnew.png" alt="">
+                                </div>
+                                <div class="product-info" name="17">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">NaturalHike</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Túi đựng đồ camping cắm trại xếp gọn Naturehike
+                                                dsadasdsadsadasdasdsNH21SNX04</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">7900,000đ</div>
+                                        <div class="price-old">9700,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product3">
+                                <div class="image-product">
+                                    <img src="./img/BALODEN.webp" alt="">
+                                </div>
+                                <div class="product-info" name="18">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">NaturalHike</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Túi đựng đồ camping cắm trại xếp gọn Naturehike
+                                                dsadasdsadsadasdasdsNH21SNX04</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">7900,000đ</div>
+                                        <div class="price-old">9700,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product3">
+                                <div class="image-product">
+                                    <img src="./img/nonkytnew.png" alt="">
+                                </div>
+                                <div class="product-info" name="19">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">NaturalHike</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Túi đựng đồ camping cắm trại xếp gọn Naturehike
+                                                dsadasdsadsadasdasdsNH21SNX04</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">7900,000đ</div>
+                                        <div class="price-old">9700,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product3">
+                                <div class="image-product">
+                                    <img src="./img/dentreoleu.webp" alt="">
+                                </div>
+                                <div class="product-info" name="20">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">NaturalHike</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Túi đựng đồ camping cắm trại xếp gọn Naturehike
+                                                dsadasdsadsadasdasdsNH21SNX04</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">7900,000đ</div>
+                                        <div class="price-old">9700,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product3">
+                                <div class="image-product">
+                                    <img src="./img/BaloLeoNui.webp" alt="">
+                                </div>
+                                <div class="product-info" name="21">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">NaturalHike</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Túi đựng đồ camping cắm trại xếp gọn Naturehike
+                                                dsadasdsadsadasdasdsNH21SNX04</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">7900,000đ</div>
+                                        <div class="price-old">9700,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product3">
+                                <div class="image-product">
+                                    <img src="./img/ke3tangnew.png" alt="">
+                                </div>
+                                <div class="product-info" name="22">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">NaturalHike</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Túi đựng đồ camping cắm trại xếp gọn Naturehike
+                                                dsadasdsadsadasdasdsNH21SNX04</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">7900,000đ</div>
+                                        <div class="price-old">9700,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product3">
+                                <div class="image-product">
+                                    <img src="./img/aomuagivi.webp" alt="">
+                                </div>
+                                <div class="product-info" name="23">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">NaturalHike</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Túi đựng đồ camping cắm trại xếp gọn Naturehike
+                                                dsadasdsadsadasdasdsNH21SNX04</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">7900,000đ</div>
+                                        <div class="price-old">9700,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product3">
+                                <div class="image-product">
+                                    <img src="./img/balonew.png" alt="">
+                                </div>
+                                <div class="product-info" name="24">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">NaturalHike</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Túi đựng đồ camping cắm trại xếp gọn Naturehike
+                                                dsadasdsadsadasdasdsNH21SNX04</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">7900,000đ</div>
+                                        <div class="price-old">9700,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product3">
+                                <div class="image-product">
+                                    <img src="./img/DAO.webp" alt="">
+                                </div>
+                                <div class="product-info" name="25">
+                                    <div class="btn-add">
+                                        <button onclick="themGioHang(this)" class="addCart"><i
+                                                class="fa-solid fa-cart-shopping fa-lg"
+                                                style="color: #fff;"></i></button>
+                                        <button onclick="pretty()" class="pretty"><i class="fa-solid fa-heart fa-lg"
+                                                style="color: #fff;"></i></i></button>
+                                        <button onclick="options()" class="options"><i class="fa-solid fa-gear fa-lg"
+                                                style="color: #fff;"></i></button>
+                                    </div>
+                                    <div class="product-vendor text-center">
+                                        <span>
+                                            <a href="">NaturalHike</a>
+                                        </span>
+                                    </div>
+                                    <div class="product-name text-center ">
+                                        <h3 class="cart-title">
+                                            <a href="#">Túi đựng đồ camping cắm trại xếp gọn Naturehike
+                                                dsadasdsadsadasdasdsNH21SNX04</a>
+                                        </h3>
+                                    </div>
+                                    <div class="stars text-center ">
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                        <i class="fa-regular fa-star" style="color: #50c252;"></i>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-new">7900,000đ</div>
+                                        <div class="price-old">9700,000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="button-prod">
+                        <button
+                            style="padding: 20px; display: flex; justify-content: center; align-items: center; border-radius: 50%; width: 10px; height: 10px;"
+                            class="next3">
+                            >
+                        </button>
+                        <button
+                            style="padding: 20px; display: flex; justify-content: center; align-items: center; border-radius: 50%; width: 10px; height: 10px;"
+                            class="prev3">
+                            < </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main-content" id="sale-bg">
+                <div class="product-super-list wide">
+                    <div class="row-heading">
+                        <div class="view-heading-recently wide">Ưu đãi</div>
+                        <div class="view-all">Xem tất cả ></div>
+                    </div>
+                    <div class="sale-banners">
+                        <div class="sale-banner">
+                            <div class="banner">
+                                <img src="./img/bannerbinhnuoc.jpg" alt="">
+                            </div>
+                            <div class="banner">
+                                <img src="./img/bannercamping.png" alt="">
+                            </div>
+                            <div class="banner">
+                                <img src="./img/banner2.webp" alt="">
+                            </div>
+                            <div class="banner">
+                                <img src="./img/banner3.webp" alt="">
+                            </div>
+                            <div class="banner">
+                                <img src="./img/banner4.webp" alt="">
+                            </div>
+                            <div class="banner">
+                                <img src="./img/bannerheading1.webp" alt="">
+                            </div>
+                            <div class="banner">
+                                <img src="./img/banner.webp" alt="">
+                            </div>
+                            <div class="banner">
+                                <img src="./img/bannerheading4.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="wide">
+                    <div class="branding wide">Shopping theo thương hiệu</div>
+                    <div class="list-brand">
+                        <div class="product-brand">
+                            <div class="item-brand">
+                                <a href="">
+                                    <img src="./img/bradingMaxFox.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="item-brand">
+                                <a href="">
+                                    <img src="./img/bradingHanagal.png" alt="">
+                                </a>
+                            </div>
+                            <div class="item-brand">
+                                <a href="">
+                                    <img src="./img/bradingLeatherman.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="item-brand">
+                                <a href="">
+                                    <img src="./img/brandingMorakill.png" alt="">
+                                </a>
+                            </div>
+                            <div class="item-brand">
+                                <a href="">
+                                    <img src="./img/brandGetber.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="item-brand">
+                                <a href="">
+                                    <img src="./img/bradingBlackdog.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="item-brand">
+                                <a href="">
+                                    <img src="./img/BrandingNaturalHike.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="item-brand">
+                                <a href="">
+                                    <img src="./img/BrandingVictoriox.webp" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="main-content" id="store-bg">
+                <div class="product-super-list wide">
+                    <div class="view-store wide">Xem Cửa Hàng</div>
+                    <div class="head">
+                        <div class="store-list">
+                            <div class="store-item">
+                                <a href="">
+                                    <img src="./img/cuahang1.jpg" alt="">
+                                    <div class="title-store">
+                                        <span>FanFan Tân Sơn Nhất</span>
+                                    </div>
+                                </a>
+                                <div class="store-info">
+                                    <p>33/1 Trường Sơn, P.4, Quận Tân Bình, HCM</p>
+                                    <p>Tel: 0776.731.741</p>
+                                </div>
+                            </div>
+                            <div class="store-item">
+                                <a href="">
+                                    <img src="./img/cuahang2.webp" alt="">
+                                    <div class="title-store">
+                                        <span>FanFan Quận 1</span>
+                                    </div>
+                                </a>
+                                <div class="store-info">
+                                    <p>61/4 Cô Giang, P. Cầu Ông Lãnh Quận 1, HCM</p>
+                                    <p>Tel: 093.7899.130</p>
+                                </div>
+                            </div>
+                            <div class="store-item">
+                                <a href="">
+                                    <img src="./img/cuahang3.jpg" alt="">
+                                    <div class="title-store">
+                                        <span>FanFan Hà Nội</span>
+                                    </div>
+                                </a>
+                                <div class="store-info">
+                                    <p>76 Nguyễn Chí Thanh, phường Láng Thượng, Đống Đa, HN</p>
+                                    <p>Tel: 0898.999.130</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="support">
+                        <div class="list-support">
+                            <div class="support-item">
+                                <h4 class="introduce">Giới thiệu</h4>
+                                <div class="support-desc">
+                                    <p>Giới thiệu về FanFan</p>
+                                    <p>Tuyển dụng</p>
+                                    <p>Quảng cáo trên Facebook</p>
+                                    <p>Tải ứng dụng</p>
+                                </div>
+                            </div>
+                            <div class="support-item">
+                                <h4 class="introduce">Những thông tin cần biết</h4>
+                                <div class="support-desc">
+                                    <p>Điều kiện và điều khoản</p>
+                                    <p>Bảo mật và thông tin</p>
+                                    <p class="address">Công ty TNHH MTV Fan Fan
+                                        Trụ sở chính: 61/4 Cô Giang, P.Cầu Ông Lãnh, Quận 1, Tp.HCM, Việt Nam.
+                                        MST: 0312909231
+                                        Ngày ĐKKD: 29/08/2014 tại Sở KH&ĐT Tp.HCM.
+                                        +84 988 999 130 - info@fanfan.vn</p>
+                                    <!-- <p>Tải ứng dụng</p> -->
+                                </div>
+                            </div>
+                            <div class="support-item">
+                                <h4 class="introduce">Hỗ trợ</h4>
+                                <div class="support-desc">
+                                    <p>Hướng dẫn đăng kí, đăng nhập</p>
+                                    <p>Hướng dẫn thanh toán</p>
+                                    <p>Chính sách bảo hành và đổi trả</p>
+                                    <p>Ưu đãi cho thành viên</p>
+                                </div>
+                            </div>
+                            <div class="support-item">
+                                <h4 class="introduce">Giới thiệu</h4>
+                                <div class="support-desc">
+                                    <p>Giới thiệu về FanFan</p>
+                                    <p>Tuyển dụng</p>
+                                    <p>Quảng cáo trên Facebook</p>
+                                    <p>Tải ứng dụng</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="contact">
+                        <div class="social-copyright">
+                            <div class="contact-app">
+                                <i style="color: #ffffff;" class="fa-brands fa-tiktok"></i>
+                            </div>
+                            <div class="contact-app">
+                                <i style="color: #ffffff;" class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="contact-app">
+                                <i style="color: #ffffff;" class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div class="contact-app">
+                                <i style="color: #ffffff;" class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="contact-app">
+                                <i style="color: #ffffff;" class="fa-brands fa-youtube"></i>
+                            </div>
+                            <p class="footer-copyright">
+                                &copy; 2023 FanFan, Inc.
+                            </p>
+                        </div>
+
+                        <div class="logo-branding">
+                            <img src="./img/logo.webp" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+        <!-- Container -->
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
